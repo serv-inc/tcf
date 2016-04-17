@@ -1,0 +1,9 @@
+* plan
+  1) how to test
+  2) check about onion.to web frontends
+* modules
+** hash
+   just md5 hashing
+** checks
+   uses hash to check website
+** error page
