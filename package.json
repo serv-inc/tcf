@@ -1,16 +1,20 @@
 {
-  "title": "Tor Child Abuse Filter",
-  "name": "tcf",
-  "version": "0.0.1",
-  "description": "Filters Tor .onion domains via the Blacklist given at ahmia.fi.",
-  "main": "index.js",
-  "author": "serv-inc",
-  "engines": {
-    "firefox": "38.0a1 49.0",
-    "fennec": "38.0a1 49.0"
-  },
-  "license": "MIT",
-  "keywords": [
-    "jetpack"
-  ]
+    "author": "serv-inc",
+    "description": "Filters Tor .onion domains via the Blacklist given at ahmia.fi.",
+    "engines": {
+        "firefox": "38.0a1",
+        "fennec": "38.0a1"
+    },
+    "keywords": [
+        "jetpack", "tor"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "name": "tcf",
+    "permissions": {
+        "private-browsing": true,
+        "multiprocess": true
+    },
+    "title": "Tor Child Abuse Filter",
+    "version": "0.0.3"
 }

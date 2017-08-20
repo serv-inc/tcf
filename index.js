@@ -4,16 +4,16 @@ const self = require("sdk/self");
 const Hash = require("./hash.js");
 
 pageMod.PageMod({
-//    include: ".onion",
-    include: /.*/,
+    include: ".onion",
+//    include: /.*/, // for testing
     contentScriptFile: "./page.js",
     contentScriptWhen: "ready",
     onAttach: function(worker) {
 	worker.port.on("loaded", function(hostname) {
             if ( isBanned(hostname) ) {
-                worker.tab.url = self.data.url("blocked.html");
                 // if yes, show blocked page
-                console.warn('banned: ' + hostname);
+                worker.tab.url = self.data.url("blocked.html");
+                //                console.warn('banned: ' + hostname);
             }
 	});
     }
@@ -26,7 +26,7 @@ function isBanned(hostname) {
 }
 
 const BANNED=["cf6833aca0e01fc5510d3bbb5a796f63",
-"d6f16a08c9098fbfc258f50bae1dfe09", // d6f... <- testing "p.p"
+//"d6f16a08c9098fbfc258f50bae1dfe09", // hash of "p.p" for testing, also see up
 "f9ff5c6d6df78cd4ec9592b82e0e18cd",
 "e2d413e6524c4249533b820847c6fcf2",
 "80a9f5979573404b8c28ede1a8f5ad9f",
