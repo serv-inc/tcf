@@ -1,2 +1,4 @@
 * Tor Child Abuse Filter
 Filters Tor .onion domains via the Blacklist given at https://ahmia.fi.
+
+[[https://addons.mozilla.org/de/firefox/addon/tor-child-abuse-block/][https://img.shields.io/amo/v/tor-child-abuse-block.svg]]
