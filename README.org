@@ -2,3 +2,10 @@
 Filters Tor .onion domains via the Blacklist given at https://ahmia.fi.
 
 [[https://addons.mozilla.org/de/firefox/addon/tor-child-abuse-block/][https://img.shields.io/amo/v/tor-child-abuse-block.svg]]
+** Versions
+*** 0.1
+**** Lacked
+     support on Firefox 57 and Chrome
+*** 0.0.4
+**** Had
+     old sites in list

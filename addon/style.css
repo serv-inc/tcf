@@ -1,0 +1,6 @@
+#page {
+    margin-left: 1en;
+}
+#page:empty {
+    display: none;
+}
