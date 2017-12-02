@@ -32,7 +32,7 @@ function isBanned(host) {
 }
 
 const BANNED=["02d9e81803b1f68819b7748968bbec3b",
-"d6f16a08c9098fbfc258f50bae1dfe09", // hash of "p.p" for testing, also see up
+// "d6f16a08c9098fbfc258f50bae1dfe09", // hash of "p.p" for testing
 "06b8477effc8005b84c1a24c4e2d2793",
 "081a74595f90ee12c9885f8022919351",
 "1314c41591c5a7e2d33cb596f7b90896",

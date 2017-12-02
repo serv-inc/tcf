@@ -9,3 +9,5 @@ Filters Tor .onion domains via the Blacklist given at https://ahmia.fi.
 *** 0.0.4
 **** Had
      old sites in list
+** Credits
+   MD5 due to https://github.com/blueimp/JavaScript-MD5
