@@ -5,6 +5,7 @@ Filters Tor .onion domains via the Blacklist given at https://ahmia.fi.
 [[https://chrome.google.com/webstore/detail/jsguardian/ibonpekjnohfhfkhfimobildlilojpcm][https://img.shields.io/chrome-web-store/v/ibonpekjnohfhfkhfimobildlilojpcm.svg]]
 
 ** Versions
+*** 0.3.0: Had older site list
 *** 0.2: Had older site list
 *** 0.1: Lacked support on Firefox 57 and Chrome
 *** 0.0.4: Had older sites in list

@@ -1,6 +1,6 @@
 {
   "name": "tcf",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Filters Tor .onion domains via the Blacklist given at ahmia.fi.",
   "main": "none",
   "directories": {
